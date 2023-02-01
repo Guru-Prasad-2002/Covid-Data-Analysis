@@ -2,7 +2,7 @@
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 import sys
-sys.path.append("C:/Users/Rohith S/Desktop/PBL Files/PBL Files")
+sys.path.append('C:/Users/guruj/Desktop/Covid_Data_Analysis')
 from ProgramFiles.Guru import *
 
 class Ui_Dialog5(object):

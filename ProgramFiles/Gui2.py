@@ -2,7 +2,8 @@
 #AGE WISE
 
 import sys
-sys.path.append('C:/Users/Rohith S/Desktop/PBL Files/PBL Files')
+# sys.path.append('C:/Users/Rohith S/Desktop/PBL Files/PBL Files')
+sys.path.append('C:/Users/guruj/Desktop/Covid_Data_Analysis')
 from ProgramFiles.Guru import * 
 from ProgramFiles.Samrudh import * 
 from ProgramFiles.Nakul import *
