@@ -17,14 +17,16 @@ from datetime import datetime
 pd.set_option("display.max_rows", 1000)      # to display all rows and columns 
 pd.set_option("display.max_columns", 1000)
 
+covid_df=pd.read_csv("C:/Users/guruj/Desktop/Covid_Data_Analysis/Primary Datasets/covid_19_india (1).csv")
+vaccine_df=pd.read_csv("C:/Users/guruj/Desktop/Covid_Data_Analysis/Primary Datasets/covid_vaccine_statewise.csv")
 
-covid_df = pd.read_csv("C:/Users/Rohith S/Desktop/PBL Files/PBL Files/testfolder/covid_19_india (1).csv")
+# covid_df = pd.read_csv("C:/Users/Rohith S/Desktop/PBL Files/PBL Files/testfolder/covid_19_india (1).csv")
 
 # print(covid_df.head(10))
 # covid_df.info()             #ran without print
 # print(covid_df.describe())
 
-vaccine_df = pd.read_csv("C:/Users/Rohith S/Desktop/PBL Files/PBL Files/testfolder/covid_vaccine_statewise.csv")
+# vaccine_df = pd.read_csv("C:/Users/Rohith S/Desktop/PBL Files/PBL Files/testfolder/covid_vaccine_statewise.csv")
 
 # print(vaccine_df.head(7))
 

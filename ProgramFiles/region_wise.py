@@ -6,8 +6,10 @@ import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 import seaborn as sns
 
-covid_df = pd.read_csv('C:/Users/Rohith S/Desktop/PBL Files/PBL Files/Primary Datasets/covid_19_india (1).csv')
-vaccine_df = pd.read_csv("C:/Users/Rohith S/Desktop/PBL Files/PBL Files/Primary Datasets/covid_vaccine_statewise.csv")
+# covid_df = pd.read_csv('C:/Users/Rohith S/Desktop/PBL Files/PBL Files/Primary Datasets/covid_19_india (1).csv')
+# vaccine_df = pd.read_csv("C:/Users/Rohith S/Desktop/PBL Files/PBL Files/Primary Datasets/covid_vaccine_statewise.csv")
+covid_df=pd.read_csv("C:/Users/guruj/Desktop/Covid_Data_Analysis/Primary Datasets/covid_19_india (1).csv")
+vaccine_df=pd.read_csv("C:/Users/guruj/Desktop/Covid_Data_Analysis/Primary Datasets/covid_vaccine_statewise.csv")
 covid_df.drop(["Sno", "Time", "ConfirmedIndianNational", "ConfirmedForeignNational"], inplace = True, axis = 1)
 covid_df['Date'] = pd.to_datetime(covid_df['Date'], format = '%Y-%m-%d')
 covid_df['Active_Cases'] = covid_df['Confirmed'] - covid_df['Cured'] + covid_df['Deaths']
