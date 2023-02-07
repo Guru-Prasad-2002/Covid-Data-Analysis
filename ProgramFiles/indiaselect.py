@@ -2,7 +2,8 @@
 
 import config
 import sys
-sys.path.append('C:/Users/Rohith S/Desktop/PBL Files/PBL Files')
+import os
+sys.path.append('C:/Users/guruj/Desktop/Covid_Data_Analysis')
 from ProgramFiles.Guru import *
 from PyQt5 import QtCore, QtGui, QtWidgets
 

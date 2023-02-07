@@ -2,7 +2,8 @@
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 import sys
-sys.path.append('C:/Users/guruj/Desktop/Covid_Data_Analysis')
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from ProgramFiles.Guru import *
 
 class Ui_Dialog5(object):

@@ -2,7 +2,8 @@
 #AGE WISE
 
 import sys
-sys.path.append('C:/Users/guruj/Desktop/Covid_Data_Analysis')
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from ProgramFiles.Guru import * 
 from ProgramFiles.Samrudh import * 
 from ProgramFiles.VigneshWaran import *

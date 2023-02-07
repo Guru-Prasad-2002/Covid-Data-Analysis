@@ -2,6 +2,7 @@
 #STATE
 
 import sys
+import os
 sys.path.append('C:/Users/guruj/Desktop/Covid_Data_Analysis')
 from ProgramFiles.VigneshWaran import *
 from ProgramFiles.Gender import*

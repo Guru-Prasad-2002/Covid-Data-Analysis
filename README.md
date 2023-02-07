@@ -107,14 +107,14 @@ The project provides meaningful insights into the Covid-19 situation in India an
 
 <!-- <h3 align="center">Main UI</h3> -->
 <p align="center">
-  <img src="ScreenShots/Main_Page.JPG" alt="Description of Image">
+  <img src="ScreenShots/Main_Page.jpg" alt="Description of Image">
   <br>
   <strong>Main UI</strong>
 </p>
 
 
 <p align="center">
-  <img src="ScreenShots/India_Zones.jpg" alt="Description of Image">
+  <img src="ScreenShots/Indian_Zones.jpg" alt="Description of Image">
   <br>
   <strong>India Zones</strong>
 </p>
@@ -162,7 +162,7 @@ The project provides meaningful insights into the Covid-19 situation in India an
 </p>
 
 <p align="center">
-  <img src="ScreenShots\Compare_two_States_OP.png" alt="Description of Image">
+  <img src="ScreenShots\Compare_States.jpg" alt="Description of Image">
   <br>
   <strong>Compare States OP</strong>
 </p>

@@ -1,9 +1,8 @@
 #MAIN GUI
 
 import sys
-# sys.path.append('C:/Users/Rohith S/Desktop/PBL Files/PBL Files')
-# sys.path.append('C:/Users/guruj/Desktop/Covid_Data_Analysis')
-sys.path.append('C:/Users/Admin/Desktop/Covid-Data-Analysis')
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from ProgramFiles.Guru import * 
 from ProgramFiles.Samrudh import * 
 from ProgramFiles.VigneshWaran import *
