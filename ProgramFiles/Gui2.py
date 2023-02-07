@@ -6,7 +6,7 @@ import sys
 sys.path.append('C:/Users/guruj/Desktop/Covid_Data_Analysis')
 from ProgramFiles.Guru import * 
 from ProgramFiles.Samrudh import * 
-from ProgramFiles.Nakul import *
+# from ProgramFiles.Nakul import *
 from ProgramFiles.VigneshWaran import *
 from PyQt5 import QtCore, QtGui, QtWidgets
 from ProgramFiles.Gui import *
