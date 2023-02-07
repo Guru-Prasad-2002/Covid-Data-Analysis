@@ -10,7 +10,7 @@ from ProgramFiles.Gui import *
 from ProgramFiles.region_wise import *
 from PyQt5 import QtCore, QtGui, QtWidgets
 from ProgramFiles.Gui import *
-from testfolder.covidtest import *
+from ProgramFiles.covidtest import *
 
 class Ui_Dialog2(object):
     def setupUi2(self, Dialog):
