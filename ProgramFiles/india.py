@@ -1,7 +1,7 @@
 #GUI
 
 import sys
-sys.path.append('C:/Users/Rohith S/Desktop/PBL Files/PBL Files')
+sys.path.append('C:/Users/guruj/Desktop/Covid_Data_Analysis')
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 from ProgramFiles.region_wise import *
@@ -24,9 +24,6 @@ class Ui_Dialog4(object):
         self.pushButton_6 = QtWidgets.QPushButton(Dialog)
         self.pushButton_6.setGeometry(QtCore.QRect(620, 430, 91, 41))
         self.pushButton_6.setObjectName("pushButton_6")
-        #self.pushButton_4 = QtWidgets.QPushButton(Dialog)
-        #self.pushButton_4.setGeometry(QtCore.QRect(630, 30, 81, 31))
-        #self.pushButton_4.setObjectName("pushButton_4")
         self.label = QtWidgets.QLabel(Dialog)
         self.label.setGeometry(QtCore.QRect(10, 0, 301, 71))
         self.label.setStyleSheet("font: 75 24pt \"MS Shell Dlg 2\";\n"

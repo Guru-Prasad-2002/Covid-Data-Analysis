@@ -17,24 +17,24 @@ from IPython.display import display, Markdown
 warnings.filterwarnings('ignore')
 def hi():
     print("hi")
-age_details=config.age_details
-india_covid_19=config.india_covid_19
-hospital_beds=config.hospital_beds
-individual_details=config.individual_details
-ICMR_details=config.ICMR_details
-ICMR_labs=config.ICMR_labs
-state_testing=config.state_testing
-population=config.population
-world_population=config.world_population
-confirmed_df=config.confirmed_df
-deaths_df=config.deaths_df
-recovered_df=config.recovered_df
-latest_data=config.latest_data
-age_details=config.age_details
-covid19India=config.covid19India
-ICMR_details=config.ICMR_details
-indiaCencus=config.indiaCencus
-stateDetails=config.stateDetails
+age_details=config.age_details.copy()
+india_covid_19=config.india_covid_19.copy()
+hospital_beds=config.hospital_beds.copy()
+individual_details=config.individual_details.copy()
+ICMR_details=config.ICMR_details.copy()
+ICMR_labs=config.ICMR_labs.copy()
+state_testing=config.state_testing.copy()
+population=config.population.copy()
+world_population=config.world_population.copy()
+confirmed_df=config.confirmed_df.copy()
+deaths_df=config.deaths_df.copy()
+recovered_df=config.recovered_df.copy()
+latest_data=config.latest_data.copy()
+age_details=config.age_details.copy()
+covid19India=config.covid19India.copy()
+ICMR_details=config.ICMR_details.copy()
+indiaCencus=config.indiaCencus.copy()
+stateDetails=config.stateDetails.copy()
 
 def Age_Wise_Bar_Graph():
     plt.figure(figsize=(14,8))
@@ -49,16 +49,12 @@ def Age_Wise_Bar_Graph():
 def Age_Wise_Pie_Chart():
     labels = list(age_details['AgeGroup'])
     sizes = list(age_details['TotalCases'])
-
     explode = []
-
     for i in labels:
         explode.append(0.05)
-        
     plt.figure(figsize= (15,10))
     plt.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=9, explode =explode)
     centre_circle = plt.Circle((0,0),0.70,fc='white')
-
     fig = plt.gcf()
     fig.gca().add_artist(centre_circle)
     plt.title('India - Age Group wise Distribution',fontsize = 20)

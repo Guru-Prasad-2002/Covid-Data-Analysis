@@ -8,8 +8,12 @@ import matplotlib.dates as mdates
 import seaborn as sns
 
 
-covid_df=config.covid19India
-vaccine_df=config.vaccine_df
+# covid_df=config.covid19India
+covid_df=config.covid_df.copy()
+print("From REGION WISE . py")
+print(config.covid_df.head())
+print(covid_df.head())
+vaccine_df=config.vaccine_df.copy()
 covid_df.drop(["Sno", "Time", "ConfirmedIndianNational", "ConfirmedForeignNational"], inplace = True, axis = 1)
 covid_df['Date'] = pd.to_datetime(covid_df['Date'], format = '%Y-%m-%d')
 covid_df['Active_Cases'] = covid_df['Confirmed'] - covid_df['Cured'] + covid_df['Deaths']

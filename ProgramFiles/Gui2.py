@@ -2,11 +2,9 @@
 #AGE WISE
 
 import sys
-# sys.path.append('C:/Users/Rohith S/Desktop/PBL Files/PBL Files')
 sys.path.append('C:/Users/guruj/Desktop/Covid_Data_Analysis')
 from ProgramFiles.Guru import * 
 from ProgramFiles.Samrudh import * 
-# from ProgramFiles.Nakul import *
 from ProgramFiles.VigneshWaran import *
 from PyQt5 import QtCore, QtGui, QtWidgets
 from ProgramFiles.Gui import *
@@ -23,10 +21,6 @@ class Ui_Dialog1(object):
         self.label_2.setStyleSheet("font: 10pt \"MS Shell Dlg 2\";\n"
 "color: rgb(0, 0, 0);")
         self.label_2.setObjectName("label_2")
-        #self.pushButton_3 = QtWidgets.QPushButton(Dialog)
-        #self.pushButton_3.setGeometry(QtCore.QRect(40, 300, 201, 61))
-        #self.pushButton_3.setStyleSheet("font: 16pt \"MS Shell Dlg 2\";")
-        #self.pushButton_3.setObjectName("pushButton_3")
         self.pushButton = QtWidgets.QPushButton(Dialog)
         self.pushButton.setGeometry(QtCore.QRect(40, 130, 201, 61))
         self.pushButton.setStyleSheet("font: 16pt \"MS Shell Dlg 2\";")

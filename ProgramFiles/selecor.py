@@ -21,29 +21,27 @@ import seaborn as sns
 warnings.filterwarnings('ignore')
 def hi2():
     print("hi")
-covid_df=pd.read_csv("C:/Users/guruj/Desktop/Covid_Data_Analysis/Primary Datasets/covid_19_india (1).csv")
-
-
-age_details=config.age_details
-india_covid_19=config.india_covid_19
-hospital_beds=config.hospital_beds
-individual_details=config.individual_details
-ICMR_details=config.ICMR_details
-ICMR_labs=config.ICMR_labs
-state_testing=config.state_testing
-population=config.population
-world_population=config.world_population
-confirmed_df=config.confirmed_df
-deaths_df=config.deaths_df
-recovered_df=config.recovered_df
-latest_data=config.latest_data
-age_details=config.age_details
-covid19India=config.covid19India
-ICMR_details=config.ICMR_details
-indiaCencus=config.indiaCencus
-stateDetails=config.stateDetails
-# covid_df=config.covid_df
-vaccine_df=config.vaccine_df
+# covid_df=pd.read_csv("C:/Users/guruj/Desktop/Covid_Data_Analysis/Primary Datasets/covid_19_india (1).csv")
+age_details=config.age_details.copy()
+india_covid_19=config.india_covid_19.copy()
+hospital_beds=config.hospital_beds.copy()
+individual_details=config.individual_details.copy()
+ICMR_details=config.ICMR_details.copy()
+ICMR_labs=config.ICMR_labs.copy()
+state_testing=config.state_testing.copy()
+population=config.population.copy()
+world_population=config.world_population.copy()
+confirmed_df=config.confirmed_df.copy()
+deaths_df=config.deaths_df.copy()
+recovered_df=config.recovered_df.copy()
+latest_data=config.latest_data.copy()
+age_details=config.age_details.copy()
+covid19India=config.covid19India.copy()
+ICMR_details=config.ICMR_details.copy()
+indiaCencus=config.indiaCencus.copy()
+stateDetails=config.stateDetails.copy()
+covid_df=config.covid_df.copy()
+vaccine_df=config.vaccine_df.copy()
 
 covid_df.drop(["Sno", "Time", "ConfirmedIndianNational", "ConfirmedForeignNational"], inplace = True, axis = 1)
 covid_df['Date'] = pd.to_datetime(covid_df['Date'], format = '%Y-%m-%d')
@@ -164,9 +162,6 @@ class Ui_Dialog3(object):
         self.label_5.setGeometry(QtCore.QRect(10, 80, 231, 41))
         self.label_5.setStyleSheet("font: 14pt \"MS Shell Dlg 2\";")
         self.label_5.setObjectName("label_5")
-        #self.pushButton_4 = QtWidgets.QPushButton(Dialog)
-        #self.pushButton_4.setGeometry(QtCore.QRect(640, 30, 81, 31))
-        #self.pushButton_4.setObjectName("pushButton_4")
         self.label_6 = QtWidgets.QLabel(Dialog)
         self.label_6.setGeometry(QtCore.QRect(10, 120, 281, 16))
         self.label_6.setStyleSheet("font: 10pt \"MS Shell Dlg 2\";")

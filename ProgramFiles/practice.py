@@ -7,8 +7,9 @@ import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 import seaborn as sns
 
-covid_df=config.covid19India
-vaccine_df=config.vaccine_df
+# covid_df=config.covid19India
+covid_df=config.covid_df.copy()
+vaccine_df=config.vaccine_df.copy()
 
 
 covid_df.drop(["Sno", "Time", "ConfirmedIndianNational", "ConfirmedForeignNational"], inplace = True, axis = 1)

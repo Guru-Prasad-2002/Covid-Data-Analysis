@@ -17,7 +17,7 @@ from datetime import datetime
 pd.set_option("display.max_rows", 1000)      # to display all rows and columns 
 pd.set_option("display.max_columns", 1000)
 
-covid_df=pd.read_csv("C:/Users/guruj/Desktop/Covid_Data_Analysis/Primary Datasets/covid_19_india (1).csv")
+covid_df=pd.read_csv("C:/Users/guruj/Desktop/Covid_Data_Analysis/Primary Datasets/covid_19_india.csv")
 vaccine_df=pd.read_csv("C:/Users/guruj/Desktop/Covid_Data_Analysis/Primary Datasets/covid_vaccine_statewise.csv")
 
 # covid_df = pd.read_csv("C:/Users/Rohith S/Desktop/PBL Files/PBL Files/testfolder/covid_19_india (1).csv")
