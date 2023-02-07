@@ -162,13 +162,7 @@ The project provides meaningful insights into the Covid-19 situation in India an
 </p>
 
 <p align="center">
-  <img src="ScreenShots\Compare_States.jpg" alt="Description of Image">
-  <br>
-  <strong>Compare States OP</strong>
-</p>
-
-<p align="center">
-  <img src="ScreenShots\Compare_two_States_OP.png" alt="Description of Image">
+  <img src="ScreenShots\Compare_States_Op.jpg" alt="Description of Image">
   <br>
   <strong>Compare States OP</strong>
 </p>
@@ -186,13 +180,7 @@ The project provides meaningful insights into the Covid-19 situation in India an
 </p>
 
 <p align="center">
-  <img src="ScreenShots\Least_Vaccination.png" alt="Description of Image">
-  <br>
-  <strong>Least Vaccinated States</strong>
-</p>
-
-<p align="center">
-  <img src="ScreenShots\Least_Vaccination.png" alt="Description of Image">
+  <img src="ScreenShots\Least_Vaccinated_states_op.png" alt="Description of Image">
   <br>
   <strong>Least Vaccinated States</strong>
 </p>
