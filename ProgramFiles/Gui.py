@@ -2,7 +2,8 @@
 
 import sys
 # sys.path.append('C:/Users/Rohith S/Desktop/PBL Files/PBL Files')
-sys.path.append('C:/Users/guruj/Desktop/Covid_Data_Analysis')
+# sys.path.append('C:/Users/guruj/Desktop/Covid_Data_Analysis')
+sys.path.append('C:/Users/Admin/Desktop/Covid-Data-Analysis')
 from ProgramFiles.Guru import * 
 from ProgramFiles.Samrudh import * 
 from ProgramFiles.VigneshWaran import *
