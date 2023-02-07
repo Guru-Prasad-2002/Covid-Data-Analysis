@@ -107,7 +107,7 @@ The project provides meaningful insights into the Covid-19 situation in India an
 
 <!-- <h3 align="center">Main UI</h3> -->
 <p align="center">
-  <img src="/ScreenShots/Main_Page.jpg" alt="Description of Image">
+  <img src="ScreenShots/Main_Page.JPG" alt="Description of Image">
   <br>
   <strong>Main UI</strong>
 </p>
