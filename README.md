@@ -106,129 +106,108 @@ The project provides meaningful insights into the Covid-19 situation in India an
 ## Screenshots
 
 <!-- <h3 align="center">Main UI</h3> -->
+
+![Main_Page](https://user-images.githubusercontent.com/95089491/217521613-8fdc1db1-e3d3-4d54-ba08-261240c90bf7.jpg)
 <p align="center">
-  <img src="ScreenShots/Main_Page.jpg" alt="Description of Image">
-  <br>
   <strong>Main UI</strong>
 </p>
 
-
+![Indian_Zones](https://user-images.githubusercontent.com/95089491/217521711-fa328004-181e-45fc-93bd-6bae1b8bbadc.jpg)
 <p align="center">
-  <img src="ScreenShots/Indian_Zones.jpg" alt="Description of Image">
-  <br>
   <strong>India Zones</strong>
 </p>
 
+![Northern_India](https://user-images.githubusercontent.com/95089491/217521772-59848747-9bdf-4f75-98e4-d41eeb1df30a.png)
 <p align="center">
-  <img src="ScreenShots/Northern_India.png" alt="Description of Image">
-  <br>
   <strong>Northern India</strong>
 </p>
 
+![Eastern_India](https://user-images.githubusercontent.com/95089491/217521816-2413dfd3-9cb6-4ff9-ba3a-cc612774afa9.png)
 <p align="center">
-  <img src="ScreenShots/Eastern_India.png" alt="Description of Image">
-  <br>
   <strong>Eastern India</strong>
 </p>
 
+![Central_India](https://user-images.githubusercontent.com/95089491/217521878-b8cacb72-3184-4b18-9f26-45e085b891f8.png)
 <p align="center">
-  <img src="ScreenShots/Central_India.png" alt="Description of Image">
-  <br>
   <strong>Central India</strong>
 </p>
 
+![NE_India](https://user-images.githubusercontent.com/95089491/217522040-1c2a696a-0c8c-494d-85a2-802c9d767f64.png)
 <p align="center">
-  <img src="ScreenShots/NE_India.png" alt="Description of Image">
-  <br>
   <strong>North Eastern India</strong>
 </p>
 
+![Southern_India](https://user-images.githubusercontent.com/95089491/217522067-547fbf45-5b6b-4d28-9bfb-d34d186f8a79.png)
 <p align="center">
-  <img src="ScreenShots/Southern_India.png" alt="Description of Image">
-  <br>
   <strong>Southern India</strong>
 </p>
 
+![Western_India](https://user-images.githubusercontent.com/95089491/217522117-db810910-d310-47cc-917e-f036885ae168.png)
 <p align="center">
-  <img src="ScreenShots/Western_India.png" alt="Description of Image">
-  <br>
   <strong>Western India</strong>
 </p>
 
+![Compare_States](https://user-images.githubusercontent.com/95089491/217522187-16bb1c7b-4e87-4b77-890c-dd265c62adec.jpg)
 <p align="center">
-  <img src="ScreenShots\Compare_States.jpg" alt="Description of Image">
-  <br>
   <strong>Compare States</strong>
 </p>
 
+![Compare_States_Op](https://user-images.githubusercontent.com/95089491/217522217-1315e6c3-aa70-47c9-9123-7f85290b7982.jpg)
 <p align="center">
-  <img src="ScreenShots\Compare_States_Op.jpg" alt="Description of Image">
-  <br>
   <strong>Compare States OP</strong>
 </p>
 
+![statewise](https://user-images.githubusercontent.com/95089491/217522468-47e3c1c5-2efe-45d9-80e9-5a6a902894e4.jpg)
 <p align="center">
-  <img src="ScreenShots\Statewise.jpg" alt="Description of Image">
-  <br>
   <strong>Statewise Stats</strong>
 </p>
 
+![Most_Vaccination](https://user-images.githubusercontent.com/95089491/217522565-35a4011c-4d84-48f3-beec-984a11702bd5.png)
 <p align="center">
-  <img src="ScreenShots\Most_Vaccination.png" alt="Description of Image">
-  <br>
   <strong>Most Vaccinated States</strong>
 </p>
 
+![Least_Vaccinated_states_op](https://user-images.githubusercontent.com/95089491/217522586-3f4c13be-6eed-439f-9e4b-9a73e9221d17.jpg)
 <p align="center">
-  <img src="ScreenShots\Least_Vaccinated_states_op.jpg" alt="Description of Image">
-  <br>
   <strong>Least Vaccinated States</strong>
 </p>
 
+![Compare_Countries](https://user-images.githubusercontent.com/95089491/217522642-cc849464-50c2-4655-9f5c-c988edba834f.jpg)
 <p align="center">
-  <img src="ScreenShots\Compare_Countries.jpg" alt="Description of Image">
-  <br>
   <strong>Comparing Countries</strong>
 </p>
 
+![Compare_2_Countries_OP](https://user-images.githubusercontent.com/95089491/217522693-5825d911-2cf3-4968-a098-e2f461b82042.png)
 <p align="center">
-  <img src="ScreenShots\Compare_2_Countries_OP.png" alt="Description of Image">
-  <br>
   <strong>Comparing Countries OP</strong>
 </p>
 
+![India vs Other Countries](https://user-images.githubusercontent.com/95089491/217522741-7d18440f-8b6a-4af6-bc3d-10df01e9bd0e.png)
 <p align="center">
-  <img src="ScreenShots\India vs Other Countries.png" alt="Description of Image">
-  <br>
   <strong>India VS Other Countries</strong>
 </p>
 
+![Age_Wise](https://user-images.githubusercontent.com/95089491/217522788-b690503e-3862-43f9-828a-1b2488899a8d.jpg)
 <p align="center">
-  <img src="ScreenShots\Age_Wise.jpg" alt="Description of Image">
-  <br>
   <strong>Age Wise</strong>
 </p>
 
+![Age_Group_PIE](https://user-images.githubusercontent.com/95089491/217522892-cfdc2747-9219-42fa-bcfd-b1fa6e8feb8f.png)
 <p align="center">
-  <img src="ScreenShots\Age_Group_PIE.png" alt="Description of Image">
-  <br>
   <strong>Age PIE Chart</strong>
 </p>
 
+![Gender_Wise](https://user-images.githubusercontent.com/95089491/217522963-b93e0679-1b36-433e-bad7-d7f104b3a01c.jpg)
 <p align="center">
-  <img src="ScreenShots\Gender_Wise.jpg" alt="Description of Image">
-  <br>
   <strong>Gender Wise</strong>
 </p>
 
+![Gender_Missing_Value_Excluded](https://user-images.githubusercontent.com/95089491/217523007-4b9c2b25-b79e-4d26-b9ed-5539861beaa1.png)
 <p align="center">
-  <img src="ScreenShots\Gender_Missing_Value_Excluded.png" alt="Description of Image">
-  <br>
   <strong>Gender Missing Values Excluded</strong>
 </p>
 
+![Gender_Missing_Value_Included](https://user-images.githubusercontent.com/95089491/217528223-db1b1493-5fd5-47ae-89c7-cf193020df3a.png)
 <p align="center">
-  <img src="ScreenShots\Gender_Missing_Value_Excluded.png" alt="Description of Image">
-  <br>
   <strong>Gender Missing Values Included</strong>
 </p>
